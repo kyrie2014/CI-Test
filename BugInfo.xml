@@ -2,8 +2,8 @@
 <BuildInfo>
     <bug name="TPM">
         <info name="loginName"      value="jenkins"/>  <!-- bugzilla 用户名 -->
-        <info name="password"       value="123@abAB"/> <!-- bugzilla 密码 -->
-        <info name="assigned_to"    value="Olivine.Peng@unisoc.com"/>         
+        <info name="password"       value="xxxx"/> <!-- bugzilla 密码 -->
+        <info name="assigned_to"    value="xxxx@xxxx.com"/>         
         <info name="cc_user"        value=""/>
         <info name="__FORM_TOKEN"   value="1a47c18353ff7b9cf870c9fe"/>
         <info name="expid"          value="19845"/>
