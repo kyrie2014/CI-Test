@@ -1,0 +1,943 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no' ?><?xml-stylesheet type="text/xsl"  href="cts_result.xsl"?>
+<TestResult testPlan="AndroidO_plan2" starttime="2018-07-06 06:40:38" endtime="2018-07-06 12:56:44" totaltime="6h 16m 6s" version="4.4" suite="CTS">
+  <InvocationResult result="Pass" detail="" />
+  <TestBuildInfo merged-report-index="" is-merged-report="" cr-id="" cp2-url="" create-time="" submitter="Shineng.Yuan" deviceID="SC77311E10181120369" manifest="http://10.0.1.99:8080/jenkins//job/sprdroid8.1_trunk_18a_pike2_daily_build/272/artifact/manifest.xml" pack-url="http://10.0.1.99:8080/jenkins//job/sprdroid8.1_trunk_18a_pike2_daily_build/272/artifact/sprdroid8.1_trunk_18a_pike2_daily_build/Images/sp7731e_1h20_1sim32v4-userdebug-native/sp7731e_1h20_1sim32v4-userdebug-native_PIKE2_1h20_Uncache.pac.gz" version="" cp2-version="" modification="http://10.0.1.99:8080/jenkins//job/sprdroid8.1_trunk_18a_pike2_daily_build/272/artifact/Release_Notes/AP/modification.txt" load-server="http://10.0.1.99:8080/jenkins/" product-hardware="sc7731e_1h20_v1.1.0" load-branch="sprdroid8.1_trunk_18a_pike2_daily_build" load-product="sp7731e_1h20_1sim32v4-userdebug-native_PIKE2_1h20_Uncache" axf="" platform="" task-id="150496" task-type="AUTOSANITY" buildId="272" sharedPath="\\SH02868LAB1201\Share\AutoSanity\android-cts\repository\results\2018.07.06_06.40.38_SC77311E10181120369" task-group-id="81604" task-name="AUTOSANITY_SH02868LAB1201_2018_07_06_06_40_35" project="" update-tool-path="unkown" plan="AndroidO_plan2" build-url="http://10.0.1.99:8080/jenkins//job/sprdroid8.1_trunk_18a_pike2_daily_build/272" />
+  <ExceptionInfo nativeCrash="0" javaCrash="0" anr="0" sysdumpSpecial="0" sysdumpPanic="0" modemAssert="0" modemBlock="0" wcnAssert="0" total="0" />
+  <DeviceInfo>
+    <Screen resolution="480x854" screen_density="1.5" screen_density_bucket="hdpi" screen_size="normal" />
+    <PhoneSubInfo subscriberId="" />
+    <BuildInfo graphicsRenderer="Mali-T820" buildID="OPM2.171019.012" Ydpi="179.269" deviceID="SC77311E10181120369" build_manufacturer="sprd" build_device="sp7731e_1h20" build_fingerprint="SPRD/sp7731e_1h20_1sim32v4/sp7731e_1h20:8.1.0/OPM2.171019.012/27505:userdebug/test-keys" build_board="sp7731e_1h20" build_type="userdebug" build_brand="SPRD" network="China Unicom" buildName="sp7731e_1h20_1sim32v4" build_model="sp7731e_1h20_native" keypad="nokeys" buildVersion="8.1.0" Xdpi="179.294" openGlEsVersion="3.2" multi_user="single user" partitions="Filesystem                                                        1K-blocks    Used Available Use% Mounted on;tmpfs                                                                226192     660    225532   1% /dev;/dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/system     1171388  630380    524624  55% /system;/dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/vendor      292784  143360    143380  50% /vendor;tmpfs                                                                226192       0    226192   0% /mnt;/dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/userdata   5791708 1099392   4583816  20% /data;/dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/cache       140060     148    136984   1% /cache;/data/media                                                         5791708 1099392   4583816  20% /storage/emulated;/mnt/media_rw/76F2-0E0C                                            15269216  246688  15022528   2% /storage/76F2-0E0C;" build_display="sp7731e_1h20_1sim32v4-userdebug 8.1.0 OPM2.171019.012 27505 test-keys" imei="867400021159748" androidPlatformVersion="27" graphicsVendor="ARM" build_abi="armeabi-v7a" touch="finger" storage_devices="1 emulated, 1 physical media" navigation="nonav" build_abi2="armeabi" locales="en_US;af;af-ZA;am;am-ET;ar;ar-EG;ar-XB;az;be;bg;bg-BG;bn;bn-BD;bs;ca;ca-ES;cs;cs-CZ;da;da-DK;de;de-AT;de-CH;de-DE;de-LI;el;el-GR;en;en-AU;en-CA;en-GB;en-IN;en-NZ;en-SG;en-US;en-XA;en-XC;es;es-ES;es-US;et;eu;eu-ES;fa;fa-IR;fi;fi-FI;fil;fil-PH;fr;fr-BE;fr-CA;fr-CH;fr-FR;gl;gu;gu-IN;hi;hi-IN;hr;hr-HR;hu;hu-HU;hy;in;in-ID;is;it;it-CH;it-IT;iw;iw-IL;ja;ja-JP;ka;kk;km;km-KH;kn;ko;ko-KR;ky;lo;lo-LA;lt;lt-LT;lv;lv-LV;mk;ml;mn;mr;ms;ms-MY;my;my-MM;nb;nb-NO;ne;ne-NP;nl;nl-BE;nl-NL;pa;pl;pl-PL;pt;pt-BR;pt-PT;ro;ro-RO;ru;ru-RU;si;si-LK;sk;sk-SK;sl;sl-SI;sq;sr;sr-Latn;sr-RS;sv;sv-SE;sw;sw-TZ;ta;ta-IN;te;th;th-TH;tr;tr-TR;uk;uk-UA;ur;ur-PK;uz;vi;vi-VN;zh-CN;zh-HK;zh-TW;zu;zu-ZA;" imsi="460016311626809" />
+    <FeatureInfo>
+      <Feature name="android.software.activities_on_secondary_displays" type="sdk" available="false" />
+      <Feature name="android.software.app_widgets" type="sdk" available="true" />
+      <Feature name="android.hardware.audio.low_latency" type="sdk" available="false" />
+      <Feature name="android.hardware.audio.output" type="sdk" available="true" />
+      <Feature name="android.hardware.audio.pro" type="sdk" available="false" />
+      <Feature name="android.software.autofill" type="sdk" available="true" />
+      <Feature name="android.hardware.type.automotive" type="sdk" available="false" />
+      <Feature name="android.software.backup" type="sdk" available="true" />
+      <Feature name="android.hardware.bluetooth" type="sdk" available="true" />
+      <Feature name="android.hardware.bluetooth_le" type="sdk" available="true" />
+      <Feature name="android.hardware.broadcastradio" type="sdk" available="false" />
+      <Feature name="android.hardware.camera" type="sdk" available="true" />
+      <Feature name="android.hardware.camera.any" type="sdk" available="true" />
+      <Feature name="android.hardware.camera.autofocus" type="sdk" available="true" />
+      <Feature name="android.hardware.camera.capability.manual_post_processing" type="sdk" available="false" />
+      <Feature name="android.hardware.camera.capability.manual_sensor" type="sdk" available="false" />
+      <Feature name="android.hardware.camera.capability.raw" type="sdk" available="false" />
+      <Feature name="android.hardware.camera.external" type="sdk" available="false" />
+      <Feature name="android.hardware.camera.flash" type="sdk" available="true" />
+      <Feature name="android.hardware.camera.front" type="sdk" available="true" />
+      <Feature name="android.hardware.camera.level.full" type="sdk" available="false" />
+      <Feature name="android.software.companion_device_setup" type="sdk" available="true" />
+      <Feature name="android.software.connectionservice" type="sdk" available="true" />
+      <Feature name="android.hardware.consumerir" type="sdk" available="false" />
+      <Feature name="android.software.cts" type="sdk" available="true" />
+      <Feature name="android.software.device_admin" type="sdk" available="true" />
+      <Feature name="android.hardware.type.embedded" type="sdk" available="false" />
+      <Feature name="android.hardware.ethernet" type="sdk" available="false" />
+      <Feature name="android.hardware.faketouch" type="sdk" available="true" />
+      <Feature name="android.hardware.faketouch.multitouch.distinct" type="sdk" available="false" />
+      <Feature name="android.hardware.faketouch.multitouch.jazzhand" type="sdk" available="false" />
+      <Feature name="android.software.file_based_encryption" type="sdk" available="false" />
+      <Feature name="android.hardware.fingerprint" type="sdk" available="false" />
+      <Feature name="android.software.freeform_window_management" type="sdk" available="false" />
+      <Feature name="android.hardware.gamepad" type="sdk" available="false" />
+      <Feature name="android.hardware.hdmi.cec" type="sdk" available="false" />
+      <Feature name="android.hardware.sensor.hifi_sensors" type="sdk" available="false" />
+      <Feature name="android.software.home_screen" type="sdk" available="true" />
+      <Feature name="android.software.input_methods" type="sdk" available="true" />
+      <Feature name="android.software.leanback" type="sdk" available="false" />
+      <Feature name="android.software.leanback_only" type="sdk" available="false" />
+      <Feature name="android.software.live_tv" type="sdk" available="false" />
+      <Feature name="android.software.live_wallpaper" type="sdk" available="false" />
+      <Feature name="android.hardware.location" type="sdk" available="true" />
+      <Feature name="android.hardware.location.gps" type="sdk" available="true" />
+      <Feature name="android.hardware.location.network" type="sdk" available="true" />
+      <Feature name="android.hardware.lowpan" type="sdk" available="false" />
+      <Feature name="android.software.managed_users" type="sdk" available="false" />
+      <Feature name="android.software.managed_users" type="sdk" available="false" />
+      <Feature name="android.hardware.microphone" type="sdk" available="true" />
+      <Feature name="android.software.midi" type="sdk" available="true" />
+      <Feature name="android.hardware.nfc" type="sdk" available="false" />
+      <Feature name="android.hardware.nfc.any" type="sdk" available="false" />
+      <Feature name="android.hardware.nfc.hce" type="sdk" available="false" />
+      <Feature name="android.hardware.nfc.hce" type="sdk" available="false" />
+      <Feature name="android.hardware.nfc.hcef" type="sdk" available="false" />
+      <Feature name="android.hardware.opengles.aep" type="sdk" available="true" />
+      <Feature name="android.hardware.type.pc" type="sdk" available="false" />
+      <Feature name="android.software.picture_in_picture" type="sdk" available="false" />
+      <Feature name="android.software.print" type="sdk" available="true" />
+      <Feature name="android.hardware.ram.low" type="sdk" available="true" />
+      <Feature name="android.hardware.ram.normal" type="sdk" available="false" />
+      <Feature name="android.hardware.screen.landscape" type="sdk" available="true" />
+      <Feature name="android.hardware.screen.portrait" type="sdk" available="true" />
+      <Feature name="android.software.securely_removes_users" type="sdk" available="false" />
+      <Feature name="android.hardware.sensor.accelerometer" type="sdk" available="true" />
+      <Feature name="android.hardware.sensor.ambient_temperature" type="sdk" available="false" />
+      <Feature name="android.hardware.sensor.barometer" type="sdk" available="false" />
+      <Feature name="android.hardware.sensor.compass" type="sdk" available="false" />
+      <Feature name="android.hardware.sensor.gyroscope" type="sdk" available="false" />
+      <Feature name="android.hardware.sensor.heartrate" type="sdk" available="false" />
+      <Feature name="android.hardware.sensor.heartrate.ecg" type="sdk" available="false" />
+      <Feature name="android.hardware.sensor.light" type="sdk" available="true" />
+      <Feature name="android.hardware.sensor.proximity" type="sdk" available="true" />
+      <Feature name="android.hardware.sensor.relative_humidity" type="sdk" available="false" />
+      <Feature name="android.hardware.sensor.stepcounter" type="sdk" available="false" />
+      <Feature name="android.hardware.sensor.stepdetector" type="sdk" available="false" />
+      <Feature name="android.software.sip" type="sdk" available="false" />
+      <Feature name="android.software.sip.voip" type="sdk" available="false" />
+      <Feature name="android.hardware.telephony" type="sdk" available="true" />
+      <Feature name="android.hardware.telephony.carrierlock" type="sdk" available="false" />
+      <Feature name="android.hardware.telephony.cdma" type="sdk" available="false" />
+      <Feature name="android.hardware.telephony.euicc" type="sdk" available="false" />
+      <Feature name="android.hardware.telephony.gsm" type="sdk" available="true" />
+      <Feature name="android.hardware.type.television" type="sdk" available="false" />
+      <Feature name="android.hardware.touchscreen" type="sdk" available="true" />
+      <Feature name="android.hardware.touchscreen.multitouch" type="sdk" available="true" />
+      <Feature name="android.hardware.touchscreen.multitouch.distinct" type="sdk" available="true" />
+      <Feature name="android.hardware.touchscreen.multitouch.jazzhand" type="sdk" available="false" />
+      <Feature name="android.hardware.usb.accessory" type="sdk" available="true" />
+      <Feature name="android.hardware.usb.host" type="sdk" available="false" />
+      <Feature name="android.software.verified_boot" type="sdk" available="false" />
+      <Feature name="android.software.voice_recognizers" type="sdk" available="false" />
+      <Feature name="android.hardware.vr.headtracking" type="sdk" available="false" />
+      <Feature name="android.software.vr.mode" type="sdk" available="false" />
+      <Feature name="android.hardware.vr.high_performance" type="sdk" available="false" />
+      <Feature name="android.hardware.vulkan.compute" type="sdk" available="false" />
+      <Feature name="android.hardware.vulkan.level" type="sdk" available="false" />
+      <Feature name="android.hardware.vulkan.version" type="sdk" available="false" />
+      <Feature name="android.hardware.type.watch" type="sdk" available="false" />
+      <Feature name="android.software.webview" type="sdk" available="true" />
+      <Feature name="android.hardware.wifi" type="sdk" available="true" />
+      <Feature name="android.hardware.wifi.aware" type="sdk" available="false" />
+      <Feature name="android.hardware.wifi.direct" type="sdk" available="true" />
+      <Feature name="android.hardware.wifi.passpoint" type="sdk" available="false" />
+    </FeatureInfo>
+    <ProcessInfo />
+    <SystemLibrariesInfo>
+      <Library name="android.test.mock" />
+      <Library name="com.android.location.provider" />
+      <Library name="com.android.future.usb.accessory" />
+      <Library name="android.ext.shared" />
+      <Library name="javax.obex" />
+      <Library name="android.ext.services" />
+      <Library name="android.test.runner" />
+      <Library name="org.apache.http.legacy" />
+      <Library name="com.android.media.remotedisplay" />
+      <Library name="com.android.mediadrm.signer" />
+    </SystemLibrariesInfo>
+    <OpenGLCompressedTextureFormatsInfo>
+      <TextureFormat name="GL_KHR_texture_compression_astc_hdr" />
+      <TextureFormat name="GL_KHR_texture_compression_astc_sliced_3d" />
+      <TextureFormat name="GL_OES_compressed_paletted_texture" />
+      <TextureFormat name="GL_OES_compressed_ETC1_RGB8_texture" />
+      <TextureFormat name="GL_OES_texture_compression_astc" />
+      <TextureFormat name="GL_KHR_texture_compression_astc_ldr" />
+    </OpenGLCompressedTextureFormatsInfo>
+  </DeviceInfo>
+  <HostInfo name="SH02868LAB1201">
+    <Os name="Windows 7" version="6.1" arch="amd64" />
+    <Java name="Oracle Corporation" version="1.7.0_80" />
+    <Cts version="4.4_r1.9">
+      <IntValue name="testStatusTimeoutMs" value="600000" />
+    </Cts>
+  </HostInfo>
+  <Summary failed="31" notExecuted="0" timeout="0" pass="135" firstRunPassRate="78%" />
+  <TestPackage name="ITestCase" startTime="2018-07-06 07:05:23" endTime="2018-07-06 07:08:48" elapsedTime="205000" desc="&#10;1.选择主副卡&#13;&#10;2.添加registerWather&#13;&#10;3.连接USB手机不灭屏&#13;&#10;4.将锁屏设置为无&#13;&#10;5.切换英文版本的系统语言&#13;&#10;6.切换输入法键盘&#13;&#10;7.设置中修改卡1卡2名字为SIM1和SIM2&#13;&#10;8.新建本机联系人SIM1.SIM2&#13;&#10;" index="1" cate="Python" expec="1.选择卡1为主卡&#13;&#10;2.连接USB手机不灭屏&#13;&#10;4.将锁屏设置为无&#13;&#10;5.将英文版本的系统语言切换为中文&#13;&#10;6.切换输入法键盘为英语（美国）-Android键盘（Aosp）&#13;&#10;7.编辑卡1卡2为SIM1和SIM2&#13;&#10;8.新建本机联系人SIM1.SIM2" appPackageName="pyInitialize_CH" digest="" expInfo="" summary="">
+    <TestSuite name="itest">
+      <TestCase name="pyInitialize_CH" priority="">
+        <Test name="testStub" result="pass" starttime="2018-07-06 07:05:23" endtime="2018-07-06 07:08:43" />
+      </TestCase>
+    </TestSuite>
+  </TestPackage>
+  <TestPackage name="ITestCase" startTime="2018-07-06 07:08:49" endTime="2018-07-06 07:08:53" elapsedTime="4000" desc="" index="" cate="" expec="" appPackageName="pyVersion" digest="" expInfo="" summary="sp7731e_1h20_1sim32v4-userdebug 8.1.0 opm2.171019.012 27505 test-keys/fm_base_17c_w18.27.1|sc7731e_modem|07-02-2018 00:51:40/marlin2_17a_rls1_w18.27.3/UNKNOWN&lt;br&gt;">
+    <TestSuite name="itest">
+      <TestCase name="pyVersion" priority="">
+        <Test name="testStub" result="pass" starttime="2018-07-06 07:08:49" endtime="2018-07-06 07:08:49" />
+      </TestCase>
+    </TestSuite>
+  </TestPackage>
+  <TestPackage name="ITestCase" startTime="2018-07-06 11:53:12" endTime="2018-07-06 12:04:53" elapsedTime="701000" desc="测试工具地址：\\shnas01\PublicShared\BM\BM_AutoTest\AutoTest_TestData\Autodaily reports\AntutuTestResult\ApkAndTestCase&#10;标准值地址：\\shnas01\PublicShared\BM\BM_AutoTest\AutoTest_TestData\Autodaily reports\AntutuTestResult\Antutu_Reference&#10;跑分结果地址：\\shnas01\PublicShared\BM\BM_AutoTest\AutoTest_TestData\Autodaily reports\AntutuTestResult\8.1result&#10;1.测试目的&#10;拦截性能回退问题&#10;2.测试步骤：&#10;关闭wifi/数据流量&#10;安装antutu测试antutu-benchmark-V6_3_3.apk/antutupingce3D_6010101.apk&#10;运行Antutu-benchmark应用，等待测试结束&#10;" index="1" cate="python" expec='1.结果判断&#10;userdebug版本跑分结果与“测试机参考值”跑分分数差值不超过10%判定为pass&#10;(user版本跑分结果与“对比机参考值”跑分结果差值不超过5%判定为pass)&#10;2.回归方法&#10;可使用框架在多个手机上多次执行pyAntutuTest该case,有一次通过即判定为通过。（也可根据测试步骤、结果判定进行手动验证）&#10;若多次回归均fail，需要在user版本上进行手动回归验证。&#10;下载对应user版本按照测试步骤进行，运行后跑分结果与对应项目的标准值表格中“对比机参考值"进行对比，多次复测分数与对比机参考值差值超过5%，需提交bug&#10;（bug以user版本数据为准，需提供slog，以及版本异常项跑分分数、对比机对应项分数、以及两者相差百分比）&#10;&#10;' appPackageName="pyAntutuTest" digest="" expInfo="" summary=" INSTRUMENTATION_STATUS: [ANDROID_TEST]=[TestResult]--鎬诲垎--18360&lt;br&gt; INSTRUMENTATION_STATUS: [ANDROID_TEST]=[TestResult]--3D鎬ц兘--涓嶆敮鎸�&lt;br&gt; INSTRUMENTATION_STATUS: [ANDROID_TEST]=[TestResult]--3D銆婂绔嬨��--涓嶆敮鎸�&lt;br&gt; INSTRUMENTATION_STATUS: [ANDROID_TEST]=[TestResult]--3D銆婅姳鍥��--涓嶆敮鎸�&lt;br&gt; INSTRUMENTATION_STATUS: [ANDROID_TEST]=[TestResult]--UX鎬ц兘--9431&lt;br&gt; INSTRUMENTATION_STATUS: [ANDROID_TEST]=[TestResult]--UX 鏁版嵁瀹夊叏--2818&lt;br&gt; INSTRUMENTATION_STATUS: [ANDROID_TEST]=[TestResult]--UX 鏁版嵁澶勭悊--1356&lt;br&gt; INSTRUMENTATION_STATUS: [ANDROID_TEST]=[TestResult]--UX 绛栫暐娓告垙--2068&lt;br&gt; INSTRUMENTATION_STATUS: [ANDROID_TEST]=[TestResult]--UX 鍥惧儚澶勭悊--1186&lt;br&gt; INSTRUMENTATION_STATUS: [ANDROID_TEST]=[TestResult]--UX I/O 鎬ц兘--2003&lt;br&gt; INSTRUMENTATION_STATUS: [ANDROID_TEST]=[TestResult]--CPU鎬ц兘--8892&lt;br&gt; INSTRUMENTATION_STATUS: [ANDROID_TEST]=[TestResult]--CPU 绠楁暟杩愮畻--1310&lt;br&gt; INSTRUMENTATION_STATUS: [ANDROID_TEST]=[TestResult]--CPU 甯哥敤绠楁硶--3592&lt;br&gt; INSTRUMENTATION_STATUS: [ANDROID_TEST]=[TestResult]--CPU 澶氭牳鎬ц兘--3990&lt;br&gt; INSTRUMENTATION_STATUS: [ANDROID_TEST]=[TestResult]--RAM鎬ц兘--37&lt;br&gt;">
+    <TestSuite name="itest">
+      <TestCase name="pyAntutuTest" priority="">
+        <Test name="testStub" result="fail" starttime="2018-07-06 11:53:12" endtime="2018-07-06 12:01:03">
+          <FailedScene message="">
+            <StackTrace></StackTrace>
+          </FailedScene>
+        </Test>
+      </TestCase>
+    </TestSuite>
+  </TestPackage>
+  <TestPackage name="DailyTest_AndroidO_go_local_full_Search-androidTest" startTime="2018-07-06 12:04:54" endTime="2018-07-06 12:06:56" elapsedTime="122000" desc="" index="" cate="" expec="" appPackageName="DailyTest_AndroidO_go_local_full_Search" digest="868ffc81cf161e4268a906707c61d2bf14555ebd" expInfo="" summary="">
+    <TestSuite name="com">
+      <TestSuite name="sprd">
+        <TestSuite name="test">
+          <TestSuite name="uia2">
+            <TestSuite name="androidO">
+              <TestSuite name="function">
+                <TestSuite name="Full">
+                  <TestSuite name="Search">
+                    <TestCase name="All" priority="">
+                      <Test name="testChangeLanguage" result="pass" starttime="2018-07-06 07:18:29" endtime="2018-07-06 07:19:58" />
+                    </TestCase>
+                    <TestCase name="Contacts" priority="">
+                      <Test name="testChangeLanguage" result="fail" starttime="2018-07-06 12:05:16" endtime="2018-07-06 12:05:46">
+                        <FailedScene message="java.lang.AssertionError: 2&lt;br&gt;at org.junit.Assert.fail(Assert.java:88)&#13;">
+                          <StackTrace>java.lang.AssertionError: 2&lt;br&gt;at org.junit.Assert.fail(Assert.java:88)&lt;br&gt;at org.junit.Assert.assertTrue(Assert.java:41)&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Search.Contacts.testChangeLanguage(Contacts.java:66)&lt;br&gt;at java.lang.reflect.Method.invoke(Native Method)&lt;br&gt;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&lt;br&gt;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&lt;br&gt;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&lt;br&gt;at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&lt;br&gt;at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&lt;br&gt;at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&lt;br&gt;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:128)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:27)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&lt;br&gt;at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)&lt;br&gt;at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:262)&lt;br&gt;at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2107)&lt;br&gt;</StackTrace>
+                        </FailedScene>
+                      </Test>
+                    </TestCase>
+                    <TestCase name="DefaultSearchTest" priority="">
+                      <Test name="testDefaultSearch" result="pass" starttime="2018-07-06 07:20:34" endtime="2018-07-06 07:21:09" />
+                    </TestCase>
+                    <TestCase name="EditSynchronized" priority="">
+                      <Test name="testChangeLanguage" result="pass" starttime="2018-07-06 07:21:15" endtime="2018-07-06 07:21:57" />
+                    </TestCase>
+                    <TestCase name="InputBoxOperation" priority="">
+                      <Test name="testChangeLanguage" result="pass" starttime="2018-07-06 07:22:03" endtime="2018-07-06 07:22:45" />
+                    </TestCase>
+                    <TestCase name="InputContent" priority="">
+                      <Test name="testChangeLanguage" result="pass" starttime="2018-07-06 07:22:51" endtime="2018-07-06 07:23:43" />
+                    </TestCase>
+                    <TestCase name="InterfaceDisplay" priority="">
+                      <Test name="testChangeLanguage" result="pass" starttime="2018-07-06 07:23:49" endtime="2018-07-06 07:24:24" />
+                    </TestCase>
+                    <TestCase name="Internet" priority="">
+                      <Test name="testChangeLanguage" result="pass" starttime="2018-07-06 07:24:30" endtime="2018-07-06 07:25:11" />
+                    </TestCase>
+                    <TestCase name="SearchEngine" priority="">
+                      <Test name="testChangeLanguage" result="pass" starttime="2018-07-06 07:25:16" endtime="2018-07-06 07:26:12" />
+                    </TestCase>
+                    <TestCase name="SearchOnLauncherTest" priority="">
+                      <Test name="testSearchOnLauncher" result="fail" starttime="2018-07-06 12:05:52" endtime="2018-07-06 12:06:27">
+                        <FailedScene message="java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Search.SearchOnLauncherTest.testSearchOnLauncher(SearchOnLauncherTest.java:59)&#13;">
+                          <StackTrace>java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Search.SearchOnLauncherTest.testSearchOnLauncher(SearchOnLauncherTest.java:59)&lt;br&gt;at java.lang.reflect.Method.invoke(Native Method)&lt;br&gt;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&lt;br&gt;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&lt;br&gt;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&lt;br&gt;at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&lt;br&gt;at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&lt;br&gt;at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&lt;br&gt;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:128)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:27)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&lt;br&gt;at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)&lt;br&gt;at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:262)&lt;br&gt;at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2107)&lt;br&gt;</StackTrace>
+                        </FailedScene>
+                      </Test>
+                    </TestCase>
+                    <TestCase name="SearchTest" priority="">
+                      <Test name="testSearch" result="fail" starttime="2018-07-06 12:06:34" endtime="2018-07-06 12:06:43">
+                        <FailedScene message="java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Search.SearchTest.testSearch(SearchTest.java:63)&#13;">
+                          <StackTrace>java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Search.SearchTest.testSearch(SearchTest.java:63)&lt;br&gt;at java.lang.reflect.Method.invoke(Native Method)&lt;br&gt;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&lt;br&gt;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&lt;br&gt;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&lt;br&gt;at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&lt;br&gt;at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&lt;br&gt;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:128)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:27)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&lt;br&gt;at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)&lt;br&gt;at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:262)&lt;br&gt;at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2107)&lt;br&gt;</StackTrace>
+                        </FailedScene>
+                      </Test>
+                    </TestCase>
+                    <TestCase name="SearchableItems" priority="">
+                      <Test name="testChangeLanguage" result="pass" starttime="2018-07-06 07:27:21" endtime="2018-07-06 07:28:34" />
+                    </TestCase>
+                    <TestCase name="pymysqlApp" priority="">
+                      <Test name="testChangeLanguage" result="pass" starttime="2018-07-06 07:28:40" endtime="2018-07-06 07:29:22" />
+                    </TestCase>
+                    <TestCase name="widget" priority="">
+                      <Test name="testChangeLanguage" result="pass" starttime="2018-07-06 07:29:28" endtime="2018-07-06 07:29:59" />
+                    </TestCase>
+                  </TestSuite>
+                </TestSuite>
+              </TestSuite>
+            </TestSuite>
+          </TestSuite>
+        </TestSuite>
+      </TestSuite>
+    </TestSuite>
+  </TestPackage>
+  <TestPackage name="DailyTest_AndroidO_go_local_full_OTA-androidTest" startTime="2018-07-06 07:30:13" endTime="2018-07-06 07:31:29" elapsedTime="76000" desc="" index="" cate="" expec="" appPackageName="DailyTest_AndroidO_go_local_full_OTA" digest="868ffc81cf161e4268a906707c61d2bf14555ebd" expInfo="" summary="">
+    <TestSuite name="com">
+      <TestSuite name="sprd">
+        <TestSuite name="test">
+          <TestSuite name="uia2">
+            <TestSuite name="androidO">
+              <TestSuite name="function">
+                <TestSuite name="Full">
+                  <TestSuite name="OTA">
+                    <TestCase name="CheckTest" priority="">
+                      <Test name="testCheck" result="pass" starttime="2018-07-06 07:30:34" endtime="2018-07-06 07:31:16" />
+                    </TestCase>
+                  </TestSuite>
+                </TestSuite>
+              </TestSuite>
+            </TestSuite>
+          </TestSuite>
+        </TestSuite>
+      </TestSuite>
+    </TestSuite>
+  </TestPackage>
+  <TestPackage name="DailyTest_AndroidO_go_local_full_Idle-androidTest" startTime="2018-07-06 07:31:30" endTime="2018-07-06 07:33:36" elapsedTime="126000" desc="" index="" cate="" expec="" appPackageName="DailyTest_AndroidO_go_local_full_Idle" digest="868ffc81cf161e4268a906707c61d2bf14555ebd" expInfo="" summary="">
+    <TestSuite name="com">
+      <TestSuite name="sprd">
+        <TestSuite name="test">
+          <TestSuite name="uia2">
+            <TestSuite name="androidO">
+              <TestSuite name="function">
+                <TestSuite name="Full">
+                  <TestSuite name="Idle">
+                    <TestCase name="AddWidgetTest" priority="">
+                      <Test name="testAddWidget" result="pass" starttime="2018-07-06 07:31:51" endtime="2018-07-06 07:32:28" />
+                    </TestCase>
+                    <TestCase name="SetWallpaperTest" priority="">
+                      <Test name="testSetWallpaper" result="pass" starttime="2018-07-06 07:32:34" endtime="2018-07-06 07:33:23" />
+                    </TestCase>
+                  </TestSuite>
+                </TestSuite>
+              </TestSuite>
+            </TestSuite>
+          </TestSuite>
+        </TestSuite>
+      </TestSuite>
+    </TestSuite>
+  </TestPackage>
+  <TestPackage name="DailyTest_AndroidO_go_local_full_Flashlight-androidTest" startTime="2018-07-06 07:33:37" endTime="2018-07-06 07:34:46" elapsedTime="69000" desc="" index="" cate="" expec="" appPackageName="DailyTest_AndroidO_go_local_full_Flashlight" digest="868ffc81cf161e4268a906707c61d2bf14555ebd" expInfo="" summary="">
+    <TestSuite name="com">
+      <TestSuite name="sprd">
+        <TestSuite name="test">
+          <TestSuite name="uia2">
+            <TestSuite name="androidO">
+              <TestSuite name="function">
+                <TestSuite name="Full">
+                  <TestSuite name="Flashlight">
+                    <TestCase name="OpenCloseTest" priority="">
+                      <Test name="testOpenClose" result="pass" starttime="2018-07-06 07:33:59" endtime="2018-07-06 07:34:30" />
+                    </TestCase>
+                  </TestSuite>
+                </TestSuite>
+              </TestSuite>
+            </TestSuite>
+          </TestSuite>
+        </TestSuite>
+      </TestSuite>
+    </TestSuite>
+  </TestPackage>
+  <TestPackage name="DailyTest_AndroidO_go_local_full_Clock-androidTest" startTime="2018-07-06 12:06:57" endTime="2018-07-06 12:08:53" elapsedTime="116000" desc="" index="" cate="" expec="" appPackageName="DailyTest_AndroidO_go_local_full_Clock" digest="868ffc81cf161e4268a906707c61d2bf14555ebd" expInfo="" summary="">
+    <TestSuite name="com">
+      <TestSuite name="sprd">
+        <TestSuite name="test">
+          <TestSuite name="uia2">
+            <TestSuite name="androidO">
+              <TestSuite name="function">
+                <TestSuite name="Full">
+                  <TestSuite name="Clock">
+                    <TestCase name="AddCityTest" priority="">
+                      <Test name="testAddCity" result="pass" starttime="2018-07-06 07:35:08" endtime="2018-07-06 07:36:11" />
+                    </TestCase>
+                    <TestCase name="AddCityViewTest" priority="">
+                      <Test name="testAddCityView" result="pass" starttime="2018-07-06 07:36:17" endtime="2018-07-06 07:37:48" />
+                    </TestCase>
+                    <TestCase name="Alarm24Test" priority="">
+                      <Test name="testAlarm24" result="pass" starttime="2018-07-06 07:37:55" endtime="2018-07-06 07:41:59" />
+                    </TestCase>
+                    <TestCase name="AlarmChangeTest" priority="">
+                      <Test name="testAlarmChange" result="pass" starttime="2018-07-06 07:42:06" endtime="2018-07-06 07:47:06" />
+                    </TestCase>
+                    <TestCase name="AlarmDelTest" priority="">
+                      <Test name="testAlarmDel" result="pass" starttime="2018-07-06 07:47:13" endtime="2018-07-06 07:48:50" />
+                    </TestCase>
+                    <TestCase name="AlarmFirstDayTest" priority="">
+                      <Test name="testAlarmFirstDay" result="pass" starttime="2018-07-06 07:48:56" endtime="2018-07-06 07:50:29" />
+                    </TestCase>
+                    <TestCase name="AlarmFutureTest" priority="">
+                      <Test name="testAlarmFuture" result="pass" starttime="2018-07-06 07:50:35" endtime="2018-07-06 07:55:04" />
+                    </TestCase>
+                    <TestCase name="AlarmLabel2Test" priority="">
+                      <Test name="testAlarmLabel2" result="pass" starttime="2018-07-06 07:55:11" endtime="2018-07-06 07:58:51" />
+                    </TestCase>
+                    <TestCase name="AlarmLabelTest" priority="">
+                      <Test name="testAlarmLabel" result="pass" starttime="2018-07-06 07:58:57" endtime="2018-07-06 08:02:31" />
+                    </TestCase>
+                    <TestCase name="AlarmPauseTimeTest" priority="">
+                      <Test name="testAlarmPauseTime" result="pass" starttime="2018-07-06 08:02:37" endtime="2018-07-06 08:07:32" />
+                    </TestCase>
+                    <TestCase name="AlarmRepeatTest" priority="">
+                      <Test name="testAlarmRepeat" result="pass" starttime="2018-07-06 08:07:39" endtime="2018-07-06 08:09:32" />
+                    </TestCase>
+                    <TestCase name="AlarmScreenTest" priority="">
+                      <Test name="testAlarmScreen" result="pass" starttime="2018-07-06 08:09:38" endtime="2018-07-06 08:13:37" />
+                    </TestCase>
+                    <TestCase name="AlarmTest" priority="">
+                      <Test name="testAlarm" result="pass" starttime="2018-07-06 08:13:44" endtime="2018-07-06 08:17:41" />
+                    </TestCase>
+                    <TestCase name="AlarmVibrateTest" priority="">
+                      <Test name="testAlarmVibrate" result="pass" starttime="2018-07-06 08:17:48" endtime="2018-07-06 08:19:29" />
+                    </TestCase>
+                    <TestCase name="AlarmVolumeUpTest" priority="">
+                      <Test name="testAlarmVolumeUp" result="pass" starttime="2018-07-06 08:19:35" endtime="2018-07-06 08:20:47" />
+                    </TestCase>
+                    <TestCase name="CountDownAddDeleteTest" priority="">
+                      <Test name="testCountDownAddDelete" result="pass" starttime="2018-07-06 08:20:53" endtime="2018-07-06 08:24:06" />
+                    </TestCase>
+                    <TestCase name="CountDownDelayTest" priority="">
+                      <Test name="testCountDownDelay" result="pass" starttime="2018-07-06 08:24:13" endtime="2018-07-06 08:25:53" />
+                    </TestCase>
+                    <TestCase name="CountDownLabelTest" priority="">
+                      <Test name="testCountDownLabel" result="pass" starttime="2018-07-06 08:26:00" endtime="2018-07-06 08:28:50" />
+                    </TestCase>
+                    <TestCase name="CountDownOneMinTest" priority="">
+                      <Test name="testCountDownOneMin" result="pass" starttime="2018-07-06 08:28:56" endtime="2018-07-06 08:31:51" />
+                    </TestCase>
+                    <TestCase name="CountDownPauseTest" priority="">
+                      <Test name="testCountDownPause" result="pass" starttime="2018-07-06 08:31:58" endtime="2018-07-06 08:33:37" />
+                    </TestCase>
+                    <TestCase name="CountDownResetAllTest" priority="">
+                      <Test name="testCountDownResetAll" result="pass" starttime="2018-07-06 08:33:43" endtime="2018-07-06 08:36:39" />
+                    </TestCase>
+                    <TestCase name="CountDownResetTest" priority="">
+                      <Test name="testCountDownReset" result="pass" starttime="2018-07-06 08:36:45" endtime="2018-07-06 08:39:11" />
+                    </TestCase>
+                    <TestCase name="CountDownRingtoneTest" priority="">
+                      <Test name="testCountDownRingtone" result="pass" starttime="2018-07-06 08:39:17" endtime="2018-07-06 08:40:52" />
+                    </TestCase>
+                    <TestCase name="CountDownStatus2Test" priority="">
+                      <Test name="testCountDownStatus2" result="pass" starttime="2018-07-06 08:40:58" endtime="2018-07-06 08:44:58" />
+                    </TestCase>
+                    <TestCase name="CountDownStatusTest" priority="">
+                      <Test name="testCountDownStatus" result="pass" starttime="2018-07-06 08:45:04" endtime="2018-07-06 08:46:34" />
+                    </TestCase>
+                    <TestCase name="CountDownStopTest" priority="">
+                      <Test name="testCountDownStop" result="pass" starttime="2018-07-06 08:46:39" endtime="2018-07-06 08:47:54" />
+                    </TestCase>
+                    <TestCase name="CountDownTest" priority="">
+                      <Test name="testCountDown" result="pass" starttime="2018-07-06 08:48:00" endtime="2018-07-06 08:49:33" />
+                    </TestCase>
+                    <TestCase name="CountDownViewTest" priority="">
+                      <Test name="testCountDownView" result="pass" starttime="2018-07-06 08:49:39" endtime="2018-07-06 08:51:29" />
+                    </TestCase>
+                    <TestCase name="DelCityTest" priority="">
+                      <Test name="testDelCity" result="fail" starttime="2018-07-06 12:07:18" endtime="2018-07-06 12:07:50">
+                        <FailedScene message="android.support.test.uiautomator.UiObjectNotFoundException: UiSelector[SCROLLABLE=true]&lt;br&gt;at android.support.test.uiautomator.UiScrollable.scrollForward(UiScrollable.java:417)&#13;">
+                          <StackTrace>android.support.test.uiautomator.UiObjectNotFoundException: UiSelector[SCROLLABLE=true]&lt;br&gt;at android.support.test.uiautomator.UiScrollable.scrollForward(UiScrollable.java:417)&lt;br&gt;at android.support.test.uiautomator.UiScrollable.scrollForward(UiScrollable.java:398)&lt;br&gt;at android.support.test.uiautomator.UiScrollable.scrollIntoView(UiScrollable.java:270)&lt;br&gt;at android.support.test.uiautomator.UiScrollable.scrollTextIntoView(UiScrollable.java:336)&lt;br&gt;at com.sprd.androidtest.utils.Utils.scrollableFindbyText(Utils.java:604)&lt;br&gt;at com.sprd.androidtest.utils.ClockUtils.resetClock(ClockUtils.java:33)&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Clock.DelCityTest.setUp(DelCityTest.java:40)&lt;br&gt;at java.lang.reflect.Method.invoke(Native Method)&lt;br&gt;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&lt;br&gt;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&lt;br&gt;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&lt;br&gt;at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)&lt;br&gt;at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&lt;br&gt;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:128)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:27)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&lt;br&gt;at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)&lt;br&gt;at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:262)&lt;br&gt;at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2107)&lt;br&gt;</StackTrace>
+                        </FailedScene>
+                      </Test>
+                    </TestCase>
+                    <TestCase name="HomeTimeZoneTest" priority="">
+                      <Test name="testHomeTimeZone" result="pass" starttime="2018-07-06 08:53:19" endtime="2018-07-06 08:55:18" />
+                    </TestCase>
+                    <TestCase name="Hour24Test" priority="">
+                      <Test name="testHour24" result="pass" starttime="2018-07-06 08:55:27" endtime="2018-07-06 08:57:07" />
+                    </TestCase>
+                    <TestCase name="MediaRingTest" priority="">
+                      <Test name="testMediaRing" result="pass" starttime="2018-07-06 08:57:17" endtime="2018-07-06 08:59:18" />
+                    </TestCase>
+                    <TestCase name="StopWatchCountTest" priority="">
+                      <Test name="testStopWatchCount" result="pass" starttime="2018-07-06 08:59:24" endtime="2018-07-06 09:00:59" />
+                    </TestCase>
+                    <TestCase name="StopWatchResetTest" priority="">
+                      <Test name="testStopWatchReset" result="pass" starttime="2018-07-06 09:01:05" endtime="2018-07-06 09:02:20" />
+                    </TestCase>
+                    <TestCase name="StopWatchShareTest" priority="">
+                      <Test name="testStopWatchShare" result="fail" starttime="2018-07-06 12:07:57" endtime="2018-07-06 12:08:42">
+                        <FailedScene message="android.support.test.uiautomator.UiObjectNotFoundException: UiSelector[SCROLLABLE=true]&lt;br&gt;at android.support.test.uiautomator.UiScrollable.scrollForward(UiScrollable.java:417)&#13;">
+                          <StackTrace>android.support.test.uiautomator.UiObjectNotFoundException: UiSelector[SCROLLABLE=true]&lt;br&gt;at android.support.test.uiautomator.UiScrollable.scrollForward(UiScrollable.java:417)&lt;br&gt;at android.support.test.uiautomator.UiScrollable.scrollForward(UiScrollable.java:398)&lt;br&gt;at android.support.test.uiautomator.UiScrollable.scrollIntoView(UiScrollable.java:270)&lt;br&gt;at android.support.test.uiautomator.UiScrollable.scrollTextIntoView(UiScrollable.java:336)&lt;br&gt;at com.sprd.androidtest.utils.Utils.scrollableFindbyText(Utils.java:604)&lt;br&gt;at com.sprd.androidtest.utils.ClockUtils.resetClock(ClockUtils.java:33)&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Clock.StopWatchShareTest.setUp(StopWatchShareTest.java:41)&lt;br&gt;at java.lang.reflect.Method.invoke(Native Method)&lt;br&gt;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&lt;br&gt;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&lt;br&gt;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&lt;br&gt;at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)&lt;br&gt;at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&lt;br&gt;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:128)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:27)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&lt;br&gt;at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)&lt;br&gt;at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:262)&lt;br&gt;at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2107)&lt;br&gt;</StackTrace>
+                        </FailedScene>
+                      </Test>
+                    </TestCase>
+                    <TestCase name="StopWatchStatus2Test" priority="">
+                      <Test name="testStopWatchStatus2" result="pass" starttime="2018-07-06 09:04:28" endtime="2018-07-06 09:05:50" />
+                    </TestCase>
+                    <TestCase name="StopWatchStatusTest" priority="">
+                      <Test name="testStopWatchStatus" result="pass" starttime="2018-07-06 09:05:56" endtime="2018-07-06 09:07:38" />
+                    </TestCase>
+                    <TestCase name="StopWatchStopTest" priority="">
+                      <Test name="testStopWatchStop" result="pass" starttime="2018-07-06 09:07:45" endtime="2018-07-06 09:09:16" />
+                    </TestCase>
+                    <TestCase name="StopWatchTest" priority="">
+                      <Test name="testStopWatch" result="pass" starttime="2018-07-06 09:09:23" endtime="2018-07-06 09:10:59" />
+                    </TestCase>
+                  </TestSuite>
+                </TestSuite>
+              </TestSuite>
+            </TestSuite>
+          </TestSuite>
+        </TestSuite>
+      </TestSuite>
+    </TestSuite>
+  </TestPackage>
+  <TestPackage name="DailyTest_AndroidO_go_local_full_Calendar-androidTest" startTime="2018-07-06 12:08:53" endTime="2018-07-06 12:20:16" elapsedTime="683000" desc="" index="" cate="" expec="" appPackageName="DailyTest_AndroidO_go_local_full_Calendar" digest="cdf2d502f8f9766814f55a3a7b7fcceee1c147d6" expInfo="" summary="">
+    <TestSuite name="com">
+      <TestSuite name="sprd">
+        <TestSuite name="test">
+          <TestSuite name="uia2">
+            <TestSuite name="androidO">
+              <TestSuite name="function">
+                <TestSuite name="Full">
+                  <TestSuite name="Calendar">
+                    <TestCase name="AllDay" priority="">
+                      <Test name="testNotificationRingtone" result="pass" starttime="2018-07-06 12:09:14" endtime="2018-07-06 12:10:39" />
+                    </TestCase>
+                    <TestCase name="Back" priority="">
+                      <Test name="testNotificationRingtone" result="pass" starttime="2018-07-06 09:16:42" endtime="2018-07-06 09:17:48" />
+                    </TestCase>
+                    <TestCase name="CalendarPermission" priority="">
+                      <Test name="testChangeLanguage" result="pass" starttime="2018-07-06 09:17:55" endtime="2018-07-06 09:19:25" />
+                    </TestCase>
+                    <TestCase name="CalendarViewSettings" priority="">
+                      <Test name="testNotificationRingtone" result="pass" starttime="2018-07-06 09:19:31" endtime="2018-07-06 09:20:50" />
+                    </TestCase>
+                    <TestCase name="CreateEventTest" priority="">
+                      <Test name="testCreateEvent" result="pass" starttime="2018-07-06 09:20:56" endtime="2018-07-06 09:21:55" />
+                    </TestCase>
+                    <TestCase name="CurrentDate" priority="">
+                      <Test name="testNotificationRingtone" result="pass" starttime="2018-07-06 09:22:01" endtime="2018-07-06 09:23:03" />
+                    </TestCase>
+                    <TestCase name="DeleteAllEvents" priority="">
+                      <Test name="testNotificationRingtone" result="pass" starttime="2018-07-06 09:23:09" endtime="2018-07-06 09:24:41" />
+                    </TestCase>
+                    <TestCase name="DeleteRepetitiveActivity" priority="">
+                      <Test name="testNotificationRingtone" result="pass" starttime="2018-07-06 12:10:49" endtime="2018-07-06 12:13:46" />
+                    </TestCase>
+                    <TestCase name="DeleteSchedule" priority="">
+                      <Test name="testNotificationRingtone" result="pass" starttime="2018-07-06 09:27:44" endtime="2018-07-06 09:29:58" />
+                    </TestCase>
+                    <TestCase name="DisplayCalendar" priority="">
+                      <Test name="testNotificationRingtone" result="pass" starttime="2018-07-06 09:30:05" endtime="2018-07-06 09:31:05" />
+                    </TestCase>
+                    <TestCase name="EditField" priority="">
+                      <Test name="testNotificationRingtone" result="pass" starttime="2018-07-06 09:31:11" endtime="2018-07-06 09:32:19" />
+                    </TestCase>
+                    <TestCase name="EditRepeat" priority="">
+                      <Test name="testNotificationRingtone" result="pass" starttime="2018-07-06 12:13:51" endtime="2018-07-06 12:16:36" />
+                    </TestCase>
+                    <TestCase name="EditRepetitiveActivities" priority="">
+                      <Test name="testNotificationRingtone" result="pass" starttime="2018-07-06 12:16:42" endtime="2018-07-06 12:18:27" />
+                    </TestCase>
+                    <TestCase name="EditSchedule" priority="">
+                      <Test name="testNotificationRingtone" result="pass" starttime="2018-07-06 09:36:35" endtime="2018-07-06 09:38:16" />
+                    </TestCase>
+                    <TestCase name="EditTime" priority="">
+                      <Test name="testNotificationRingtone" result="pass" starttime="2018-07-06 09:38:23" endtime="2018-07-06 09:39:30" />
+                    </TestCase>
+                    <TestCase name="ExpirationDate" priority="">
+                      <Test name="testNotificationRingtone" result="pass" starttime="2018-07-06 12:18:32" endtime="2018-07-06 12:20:04" />
+                    </TestCase>
+                    <TestCase name="Home" priority="">
+                      <Test name="testNotificationRingtone" result="pass" starttime="2018-07-06 09:40:56" endtime="2018-07-06 09:42:09" />
+                    </TestCase>
+                    <TestCase name="Interface" priority="">
+                      <Test name="testNotificationRingtone" result="pass" starttime="2018-07-06 09:42:15" endtime="2018-07-06 09:43:16" />
+                    </TestCase>
+                    <TestCase name="ModifySchedule" priority="">
+                      <Test name="testNotificationRingtone" result="pass" starttime="2018-07-06 09:43:22" endtime="2018-07-06 09:47:23" />
+                    </TestCase>
+                    <TestCase name="MonthView" priority="">
+                      <Test name="testNotificationRingtone" result="pass" starttime="2018-07-06 09:47:28" endtime="2018-07-06 09:49:19" />
+                    </TestCase>
+                    <TestCase name="MonthViewEditSchedule" priority="">
+                      <Test name="testNotificationRingtone" result="pass" starttime="2018-07-06 09:49:25" endtime="2018-07-06 09:51:24" />
+                    </TestCase>
+                    <TestCase name="NewActivities" priority="">
+                      <Test name="testNotificationRingtone" result="pass" starttime="2018-07-06 09:51:30" endtime="2018-07-06 09:52:33" />
+                    </TestCase>
+                    <TestCase name="Permission" priority="">
+                      <Test name="testNotificationRingtone" result="pass" starttime="2018-07-06 09:52:39" endtime="2018-07-06 09:53:36" />
+                    </TestCase>
+                    <TestCase name="Remind" priority="">
+                      <Test name="testNotificationRingtone" result="pass" starttime="2018-07-06 09:53:43" endtime="2018-07-06 09:54:45" />
+                    </TestCase>
+                    <TestCase name="RepetitiveActivity" priority="">
+                      <Test name="testNotificationRingtone" result="pass" starttime="2018-07-06 09:54:51" endtime="2018-07-06 09:56:35" />
+                    </TestCase>
+                    <TestCase name="Search" priority="">
+                      <Test name="testNotificationRingtone" result="pass" starttime="2018-07-06 09:56:42" endtime="2018-07-06 09:59:17" />
+                    </TestCase>
+                    <TestCase name="SearchEventTest" priority="">
+                      <Test name="testSearchEvent" result="pass" starttime="2018-07-06 09:59:23" endtime="2018-07-06 10:00:43" />
+                    </TestCase>
+                    <TestCase name="Share" priority="">
+                      <Test name="testNotificationRingtone" result="pass" starttime="2018-07-06 10:00:49" endtime="2018-07-06 10:06:43" />
+                    </TestCase>
+                    <TestCase name="ShareEventTest" priority="">
+                      <Test name="testShareEvent" result="pass" starttime="2018-07-06 10:06:49" endtime="2018-07-06 10:08:54" />
+                    </TestCase>
+                    <TestCase name="ViewAllMenuTest" priority="">
+                      <Test name="testViewAllMenu" result="pass" starttime="2018-07-06 10:09:00" endtime="2018-07-06 10:09:50" />
+                    </TestCase>
+                  </TestSuite>
+                </TestSuite>
+              </TestSuite>
+            </TestSuite>
+          </TestSuite>
+        </TestSuite>
+      </TestSuite>
+    </TestSuite>
+  </TestPackage>
+  <TestPackage name="DailyTest_AndroidO_go_local_full_Calculator-androidTest" startTime="2018-07-06 12:20:17" endTime="2018-07-06 12:49:13" elapsedTime="1736000" desc="" index="" cate="" expec="" appPackageName="DailyTest_AndroidO_go_local_full_Calculator" digest="868ffc81cf161e4268a906707c61d2bf14555ebd" expInfo="" summary="">
+    <TestSuite name="com">
+      <TestSuite name="sprd">
+        <TestSuite name="test">
+          <TestSuite name="uia2">
+            <TestSuite name="androidO">
+              <TestSuite name="function">
+                <TestSuite name="Full">
+                  <TestSuite name="Calculator">
+                    <TestCase name="AddFunction" priority="">
+                      <Test name="testChangeLanguage" result="fail" starttime="2018-07-06 12:20:42" endtime="2018-07-06 12:23:11">
+                        <FailedScene message="java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Calculator.AddFunction.testChangeLanguage(AddFunction.java:92)&#13;">
+                          <StackTrace>java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Calculator.AddFunction.testChangeLanguage(AddFunction.java:92)&lt;br&gt;at java.lang.reflect.Method.invoke(Native Method)&lt;br&gt;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&lt;br&gt;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&lt;br&gt;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&lt;br&gt;at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&lt;br&gt;at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&lt;br&gt;at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&lt;br&gt;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:128)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:27)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&lt;br&gt;at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)&lt;br&gt;at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:262)&lt;br&gt;at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2107)&lt;br&gt;</StackTrace>
+                        </FailedScene>
+                      </Test>
+                    </TestCase>
+                    <TestCase name="ChangeLanguage" priority="">
+                      <Test name="testChangeLanguage" result="pass" starttime="2018-07-06 10:16:55" endtime="2018-07-06 10:18:19" />
+                    </TestCase>
+                    <TestCase name="CircularConstant" priority="">
+                      <Test name="testChangeLanguage" result="pass" starttime="2018-07-06 10:18:26" endtime="2018-07-06 10:20:17" />
+                    </TestCase>
+                    <TestCase name="CosFractionalArithmetic" priority="">
+                      <Test name="testChangeLanguage" result="fail" starttime="2018-07-06 12:23:17" endtime="2018-07-06 12:24:29">
+                        <FailedScene message="java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Calculator.CosFractionalArithmetic.testChangeLanguage(CosFractionalArithmetic.java:68)&#13;">
+                          <StackTrace>java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Calculator.CosFractionalArithmetic.testChangeLanguage(CosFractionalArithmetic.java:68)&lt;br&gt;at java.lang.reflect.Method.invoke(Native Method)&lt;br&gt;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&lt;br&gt;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&lt;br&gt;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&lt;br&gt;at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&lt;br&gt;at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&lt;br&gt;at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&lt;br&gt;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:128)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:27)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&lt;br&gt;at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)&lt;br&gt;at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:262)&lt;br&gt;at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2107)&lt;br&gt;</StackTrace>
+                        </FailedScene>
+                      </Test>
+                    </TestCase>
+                    <TestCase name="CosIntegerArithmetic" priority="">
+                      <Test name="testChangeLanguage" result="fail" starttime="2018-07-06 12:24:34" endtime="2018-07-06 12:25:21">
+                        <FailedScene message="java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Calculator.CosIntegerArithmetic.testChangeLanguage(CosIntegerArithmetic.java:65)&#13;">
+                          <StackTrace>java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Calculator.CosIntegerArithmetic.testChangeLanguage(CosIntegerArithmetic.java:65)&lt;br&gt;at java.lang.reflect.Method.invoke(Native Method)&lt;br&gt;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&lt;br&gt;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&lt;br&gt;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&lt;br&gt;at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&lt;br&gt;at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&lt;br&gt;at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&lt;br&gt;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:128)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:27)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&lt;br&gt;at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)&lt;br&gt;at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:262)&lt;br&gt;at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2107)&lt;br&gt;</StackTrace>
+                        </FailedScene>
+                      </Test>
+                    </TestCase>
+                    <TestCase name="CosOperation" priority="">
+                      <Test name="testChangeLanguage" result="pass" starttime="2018-07-06 10:22:39" endtime="2018-07-06 10:23:35" />
+                    </TestCase>
+                    <TestCase name="DivisionFunction" priority="">
+                      <Test name="testChangeLanguage" result="fail" starttime="2018-07-06 12:25:26" endtime="2018-07-06 12:27:11">
+                        <FailedScene message="java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Calculator.DivisionFunction.testChangeLanguage(DivisionFunction.java:88)&#13;">
+                          <StackTrace>java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Calculator.DivisionFunction.testChangeLanguage(DivisionFunction.java:88)&lt;br&gt;at java.lang.reflect.Method.invoke(Native Method)&lt;br&gt;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&lt;br&gt;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&lt;br&gt;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&lt;br&gt;at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&lt;br&gt;at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&lt;br&gt;at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&lt;br&gt;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:128)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:27)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&lt;br&gt;at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)&lt;br&gt;at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:262)&lt;br&gt;at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2107)&lt;br&gt;</StackTrace>
+                        </FailedScene>
+                      </Test>
+                    </TestCase>
+                    <TestCase name="EIntegerArithmetic" priority="">
+                      <Test name="testChangeLanguage" result="fail" starttime="2018-07-06 12:27:16" endtime="2018-07-06 12:28:18">
+                        <FailedScene message="java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Calculator.EIntegerArithmetic.testChangeLanguage(EIntegerArithmetic.java:64)&#13;">
+                          <StackTrace>java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Calculator.EIntegerArithmetic.testChangeLanguage(EIntegerArithmetic.java:64)&lt;br&gt;at java.lang.reflect.Method.invoke(Native Method)&lt;br&gt;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&lt;br&gt;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&lt;br&gt;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&lt;br&gt;at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&lt;br&gt;at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&lt;br&gt;at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&lt;br&gt;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:128)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:27)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&lt;br&gt;at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)&lt;br&gt;at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:262)&lt;br&gt;at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2107)&lt;br&gt;</StackTrace>
+                        </FailedScene>
+                      </Test>
+                    </TestCase>
+                    <TestCase name="EOperation" priority="">
+                      <Test name="testChangeLanguage" result="fail" starttime="2018-07-06 12:28:22" endtime="2018-07-06 12:29:30">
+                        <FailedScene message="java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Calculator.EOperation.testChangeLanguage(EOperation.java:69)&#13;">
+                          <StackTrace>java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Calculator.EOperation.testChangeLanguage(EOperation.java:69)&lt;br&gt;at java.lang.reflect.Method.invoke(Native Method)&lt;br&gt;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&lt;br&gt;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&lt;br&gt;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&lt;br&gt;at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&lt;br&gt;at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&lt;br&gt;at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&lt;br&gt;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:128)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:27)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&lt;br&gt;at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)&lt;br&gt;at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:262)&lt;br&gt;at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2107)&lt;br&gt;</StackTrace>
+                        </FailedScene>
+                      </Test>
+                    </TestCase>
+                    <TestCase name="EnterTest" priority="">
+                      <Test name="testEnter" result="pass" starttime="2018-07-06 10:28:02" endtime="2018-07-06 10:28:37" />
+                    </TestCase>
+                    <TestCase name="FactorialFunction" priority="">
+                      <Test name="testChangeLanguage" result="fail" starttime="2018-07-06 12:29:36" endtime="2018-07-06 12:30:47">
+                        <FailedScene message="java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Calculator.FactorialFunction.testChangeLanguage(FactorialFunction.java:70)&#13;">
+                          <StackTrace>java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Calculator.FactorialFunction.testChangeLanguage(FactorialFunction.java:70)&lt;br&gt;at java.lang.reflect.Method.invoke(Native Method)&lt;br&gt;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&lt;br&gt;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&lt;br&gt;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&lt;br&gt;at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&lt;br&gt;at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&lt;br&gt;at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&lt;br&gt;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:128)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:27)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&lt;br&gt;at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)&lt;br&gt;at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:262)&lt;br&gt;at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2107)&lt;br&gt;</StackTrace>
+                        </FailedScene>
+                      </Test>
+                    </TestCase>
+                    <TestCase name="History" priority="">
+                      <Test name="testChangeLanguage" result="pass" starttime="2018-07-06 10:30:03" endtime="2018-07-06 10:30:46" />
+                    </TestCase>
+                    <TestCase name="HugeMultiplication" priority="">
+                      <Test name="testChangeLanguage" result="pass" starttime="2018-07-06 10:30:52" endtime="2018-07-06 10:32:45" />
+                    </TestCase>
+                    <TestCase name="Import" priority="">
+                      <Test name="testChangeLanguage" result="pass" starttime="2018-07-06 10:32:50" endtime="2018-07-06 10:33:45" />
+                    </TestCase>
+                    <TestCase name="InFractionalArithmetic" priority="">
+                      <Test name="testChangeLanguage" result="fail" starttime="2018-07-06 12:30:52" endtime="2018-07-06 12:32:06">
+                        <FailedScene message="java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Calculator.InFractionalArithmetic.testChangeLanguage(InFractionalArithmetic.java:68)&#13;">
+                          <StackTrace>java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Calculator.InFractionalArithmetic.testChangeLanguage(InFractionalArithmetic.java:68)&lt;br&gt;at java.lang.reflect.Method.invoke(Native Method)&lt;br&gt;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&lt;br&gt;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&lt;br&gt;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&lt;br&gt;at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&lt;br&gt;at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&lt;br&gt;at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&lt;br&gt;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:128)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:27)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&lt;br&gt;at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)&lt;br&gt;at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:262)&lt;br&gt;at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2107)&lt;br&gt;</StackTrace>
+                        </FailedScene>
+                      </Test>
+                    </TestCase>
+                    <TestCase name="InOperation" priority="">
+                      <Test name="testChangeLanguage" result="fail" starttime="2018-07-06 12:32:11" endtime="2018-07-06 12:33:15">
+                        <FailedScene message="java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Calculator.InOperation.testChangeLanguage(InOperation.java:66)&#13;">
+                          <StackTrace>java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Calculator.InOperation.testChangeLanguage(InOperation.java:66)&lt;br&gt;at java.lang.reflect.Method.invoke(Native Method)&lt;br&gt;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&lt;br&gt;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&lt;br&gt;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&lt;br&gt;at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&lt;br&gt;at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&lt;br&gt;at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&lt;br&gt;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:128)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:27)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&lt;br&gt;at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)&lt;br&gt;at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:262)&lt;br&gt;at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2107)&lt;br&gt;</StackTrace>
+                        </FailedScene>
+                      </Test>
+                    </TestCase>
+                    <TestCase name="InputTest" priority="">
+                      <Test name="testInput" result="pass" starttime="2018-07-06 10:36:29" endtime="2018-07-06 10:37:54" />
+                    </TestCase>
+                    <TestCase name="LogFractionalArithmetic" priority="">
+                      <Test name="testChangeLanguage" result="fail" starttime="2018-07-06 12:33:20" endtime="2018-07-06 12:34:33">
+                        <FailedScene message="java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Calculator.LogFractionalArithmetic.testChangeLanguage(LogFractionalArithmetic.java:69)&#13;">
+                          <StackTrace>java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Calculator.LogFractionalArithmetic.testChangeLanguage(LogFractionalArithmetic.java:69)&lt;br&gt;at java.lang.reflect.Method.invoke(Native Method)&lt;br&gt;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&lt;br&gt;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&lt;br&gt;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&lt;br&gt;at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&lt;br&gt;at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&lt;br&gt;at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&lt;br&gt;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:128)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:27)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&lt;br&gt;at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)&lt;br&gt;at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:262)&lt;br&gt;at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2107)&lt;br&gt;</StackTrace>
+                        </FailedScene>
+                      </Test>
+                    </TestCase>
+                    <TestCase name="LogIntegerArithmetic" priority="">
+                      <Test name="testChangeLanguage" result="fail" starttime="2018-07-06 12:34:38" endtime="2018-07-06 12:35:43">
+                        <FailedScene message="java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Calculator.LogIntegerArithmetic.testChangeLanguage(LogIntegerArithmetic.java:65)&#13;">
+                          <StackTrace>java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Calculator.LogIntegerArithmetic.testChangeLanguage(LogIntegerArithmetic.java:65)&lt;br&gt;at java.lang.reflect.Method.invoke(Native Method)&lt;br&gt;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&lt;br&gt;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&lt;br&gt;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&lt;br&gt;at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&lt;br&gt;at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&lt;br&gt;at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&lt;br&gt;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:128)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:27)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&lt;br&gt;at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)&lt;br&gt;at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:262)&lt;br&gt;at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2107)&lt;br&gt;</StackTrace>
+                        </FailedScene>
+                      </Test>
+                    </TestCase>
+                    <TestCase name="LogOperation" priority="">
+                      <Test name="testChangeLanguage" result="pass" starttime="2018-07-06 10:40:36" endtime="2018-07-06 10:41:36" />
+                    </TestCase>
+                    <TestCase name="MixComputeTest" priority="">
+                      <Test name="testMixCompute" result="pass" starttime="2018-07-06 10:41:41" endtime="2018-07-06 10:42:18" />
+                    </TestCase>
+                    <TestCase name="MixedOperation" priority="">
+                      <Test name="testChangeLanguage" result="fail" starttime="2018-07-06 12:35:47" endtime="2018-07-06 12:36:33">
+                        <FailedScene message="java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Calculator.MixedOperation.testChangeLanguage(MixedOperation.java:55)&#13;">
+                          <StackTrace>java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Calculator.MixedOperation.testChangeLanguage(MixedOperation.java:55)&lt;br&gt;at java.lang.reflect.Method.invoke(Native Method)&lt;br&gt;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&lt;br&gt;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&lt;br&gt;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&lt;br&gt;at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&lt;br&gt;at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&lt;br&gt;at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&lt;br&gt;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:128)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:27)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&lt;br&gt;at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)&lt;br&gt;at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:262)&lt;br&gt;at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2107)&lt;br&gt;</StackTrace>
+                        </FailedScene>
+                      </Test>
+                    </TestCase>
+                    <TestCase name="MultiplicationFunction" priority="">
+                      <Test name="testChangeLanguage" result="fail" starttime="2018-07-06 12:36:38" endtime="2018-07-06 12:38:27">
+                        <FailedScene message="java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Calculator.MultiplicationFunction.testChangeLanguage(MultiplicationFunction.java:87)&#13;">
+                          <StackTrace>java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Calculator.MultiplicationFunction.testChangeLanguage(MultiplicationFunction.java:87)&lt;br&gt;at java.lang.reflect.Method.invoke(Native Method)&lt;br&gt;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&lt;br&gt;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&lt;br&gt;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&lt;br&gt;at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&lt;br&gt;at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&lt;br&gt;at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&lt;br&gt;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:128)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:27)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&lt;br&gt;at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)&lt;br&gt;at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:262)&lt;br&gt;at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2107)&lt;br&gt;</StackTrace>
+                        </FailedScene>
+                      </Test>
+                    </TestCase>
+                    <TestCase name="Pi" priority="">
+                      <Test name="testChangeLanguage" result="pass" starttime="2018-07-06 10:45:17" endtime="2018-07-06 10:46:55" />
+                    </TestCase>
+                    <TestCase name="Powerfunction" priority="">
+                      <Test name="testChangeLanguage" result="pass" starttime="2018-07-06 10:47:03" endtime="2018-07-06 10:48:22" />
+                    </TestCase>
+                    <TestCase name="SinDecimalArithmetic" priority="">
+                      <Test name="testChangeLanguage" result="fail" starttime="2018-07-06 12:38:31" endtime="2018-07-06 12:39:45">
+                        <FailedScene message="java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Calculator.SinDecimalArithmetic.testChangeLanguage(SinDecimalArithmetic.java:68)&#13;">
+                          <StackTrace>java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Calculator.SinDecimalArithmetic.testChangeLanguage(SinDecimalArithmetic.java:68)&lt;br&gt;at java.lang.reflect.Method.invoke(Native Method)&lt;br&gt;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&lt;br&gt;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&lt;br&gt;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&lt;br&gt;at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&lt;br&gt;at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&lt;br&gt;at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&lt;br&gt;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:128)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:27)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&lt;br&gt;at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)&lt;br&gt;at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:262)&lt;br&gt;at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2107)&lt;br&gt;</StackTrace>
+                        </FailedScene>
+                      </Test>
+                    </TestCase>
+                    <TestCase name="SinFunctionalOperation" priority="">
+                      <Test name="testChangeLanguage" result="pass" starttime="2018-07-06 10:49:53" endtime="2018-07-06 10:50:53" />
+                    </TestCase>
+                    <TestCase name="SinIntegerArithmetic" priority="">
+                      <Test name="testChangeLanguage" result="fail" starttime="2018-07-06 12:39:50" endtime="2018-07-06 12:40:53">
+                        <FailedScene message="java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Calculator.SinIntegerArithmetic.testChangeLanguage(SinIntegerArithmetic.java:67)&#13;">
+                          <StackTrace>java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Calculator.SinIntegerArithmetic.testChangeLanguage(SinIntegerArithmetic.java:67)&lt;br&gt;at java.lang.reflect.Method.invoke(Native Method)&lt;br&gt;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&lt;br&gt;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&lt;br&gt;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&lt;br&gt;at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&lt;br&gt;at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&lt;br&gt;at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&lt;br&gt;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:128)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:27)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&lt;br&gt;at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)&lt;br&gt;at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:262)&lt;br&gt;at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2107)&lt;br&gt;</StackTrace>
+                        </FailedScene>
+                      </Test>
+                    </TestCase>
+                    <TestCase name="SquareRootFunction" priority="">
+                      <Test name="testChangeLanguage" result="pass" starttime="2018-07-06 10:52:10" endtime="2018-07-06 10:53:06" />
+                    </TestCase>
+                    <TestCase name="SquareRootPositive" priority="">
+                      <Test name="testChangeLanguage" result="fail" starttime="2018-07-06 12:40:57" endtime="2018-07-06 12:42:02">
+                        <FailedScene message="java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Calculator.SquareRootPositive.testChangeLanguage(SquareRootPositive.java:64)&#13;">
+                          <StackTrace>java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Calculator.SquareRootPositive.testChangeLanguage(SquareRootPositive.java:64)&lt;br&gt;at java.lang.reflect.Method.invoke(Native Method)&lt;br&gt;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&lt;br&gt;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&lt;br&gt;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&lt;br&gt;at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&lt;br&gt;at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&lt;br&gt;at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&lt;br&gt;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:128)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:27)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&lt;br&gt;at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)&lt;br&gt;at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:262)&lt;br&gt;at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2107)&lt;br&gt;</StackTrace>
+                        </FailedScene>
+                      </Test>
+                    </TestCase>
+                    <TestCase name="SubtractionFunction" priority="">
+                      <Test name="testChangeLanguage" result="fail" starttime="2018-07-06 12:42:06" endtime="2018-07-06 12:42:46">
+                        <FailedScene message="java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Calculator.SubtractionFunction.testChangeLanguage(SubtractionFunction.java:55)&#13;">
+                          <StackTrace>java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Calculator.SubtractionFunction.testChangeLanguage(SubtractionFunction.java:55)&lt;br&gt;at java.lang.reflect.Method.invoke(Native Method)&lt;br&gt;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&lt;br&gt;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&lt;br&gt;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&lt;br&gt;at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&lt;br&gt;at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&lt;br&gt;at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&lt;br&gt;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:128)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:27)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&lt;br&gt;at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)&lt;br&gt;at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:262)&lt;br&gt;at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2107)&lt;br&gt;</StackTrace>
+                        </FailedScene>
+                      </Test>
+                    </TestCase>
+                    <TestCase name="tanFractionalArithmetic" priority="">
+                      <Test name="testChangeLanguage" result="fail" starttime="2018-07-06 12:42:51" endtime="2018-07-06 12:44:05">
+                        <FailedScene message="java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Calculator.tanFractionalArithmetic.testChangeLanguage(tanFractionalArithmetic.java:67)&#13;">
+                          <StackTrace>java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Calculator.tanFractionalArithmetic.testChangeLanguage(tanFractionalArithmetic.java:67)&lt;br&gt;at java.lang.reflect.Method.invoke(Native Method)&lt;br&gt;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&lt;br&gt;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&lt;br&gt;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&lt;br&gt;at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&lt;br&gt;at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&lt;br&gt;at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&lt;br&gt;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:128)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:27)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&lt;br&gt;at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)&lt;br&gt;at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:262)&lt;br&gt;at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2107)&lt;br&gt;</StackTrace>
+                        </FailedScene>
+                      </Test>
+                    </TestCase>
+                    <TestCase name="tanIntegerArithmetic" priority="">
+                      <Test name="testChangeLanguage" result="fail" starttime="2018-07-06 12:44:09" endtime="2018-07-06 12:45:13">
+                        <FailedScene message="java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Calculator.tanIntegerArithmetic.testChangeLanguage(tanIntegerArithmetic.java:65)&#13;">
+                          <StackTrace>java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.support.test.uiautomator.UiObject2.clickAndWait(android.support.test.uiautomator.EventCondition, long)' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Calculator.tanIntegerArithmetic.testChangeLanguage(tanIntegerArithmetic.java:65)&lt;br&gt;at java.lang.reflect.Method.invoke(Native Method)&lt;br&gt;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&lt;br&gt;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&lt;br&gt;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&lt;br&gt;at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&lt;br&gt;at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&lt;br&gt;at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&lt;br&gt;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:128)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:27)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&lt;br&gt;at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)&lt;br&gt;at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:262)&lt;br&gt;at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2107)&lt;br&gt;</StackTrace>
+                        </FailedScene>
+                      </Test>
+                    </TestCase>
+                    <TestCase name="tanOperation" priority="">
+                      <Test name="testChangeLanguage" result="pass" starttime="2018-07-06 10:57:55" endtime="2018-07-06 10:58:54" />
+                    </TestCase>
+                  </TestSuite>
+                </TestSuite>
+              </TestSuite>
+            </TestSuite>
+          </TestSuite>
+        </TestSuite>
+      </TestSuite>
+    </TestSuite>
+  </TestPackage>
+  <TestPackage name="DailyTest_AndroidO_go_local_full_AudioProfiles-androidTest" startTime="2018-07-06 12:49:14" endTime="2018-07-06 12:53:00" elapsedTime="226000" desc="" index="" cate="" expec="" appPackageName="DailyTest_AndroidO_go_local_full_AudioProfiles" digest="868ffc81cf161e4268a906707c61d2bf14555ebd" expInfo="" summary="">
+    <TestSuite name="com">
+      <TestSuite name="sprd">
+        <TestSuite name="test">
+          <TestSuite name="uia2">
+            <TestSuite name="androidO">
+              <TestSuite name="function">
+                <TestSuite name="Full">
+                  <TestSuite name="AudioProfiles">
+                    <TestCase name="AutomateRules" priority="">
+                      <Test name="testNotificationRingtone" result="pass" starttime="2018-07-06 11:03:19" endtime="2018-07-06 11:05:11" />
+                    </TestCase>
+                    <TestCase name="CheckNotification" priority="">
+                      <Test name="testNotificationRingtone" result="fail" starttime="2018-07-06 12:49:35" endtime="2018-07-06 12:51:11">
+                        <FailedScene message="java.lang.AssertionError: 默认通知提示音&lt;br&gt;at org.junit.Assert.fail(Assert.java:88)&#13;">
+                          <StackTrace>java.lang.AssertionError: 默认通知提示音&lt;br&gt;at org.junit.Assert.fail(Assert.java:88)&lt;br&gt;at org.junit.Assert.assertTrue(Assert.java:41)&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.AudioProfiles.CheckNotification.testNotificationRingtone(CheckNotification.java:430)&lt;br&gt;at java.lang.reflect.Method.invoke(Native Method)&lt;br&gt;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&lt;br&gt;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&lt;br&gt;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&lt;br&gt;at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&lt;br&gt;at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&lt;br&gt;at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&lt;br&gt;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:128)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:27)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&lt;br&gt;at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)&lt;br&gt;at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:262)&lt;br&gt;at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2107)&lt;br&gt;</StackTrace>
+                        </FailedScene>
+                      </Test>
+                    </TestCase>
+                    <TestCase name="CheckTheAudio" priority="">
+                      <Test name="testNotificationRingtone" result="pass" starttime="2018-07-06 11:07:02" endtime="2018-07-06 11:08:00" />
+                    </TestCase>
+                    <TestCase name="CheckTheAudioSetting" priority="">
+                      <Test name="testNotificationRingtone" result="pass" starttime="2018-07-06 11:08:06" endtime="2018-07-06 11:08:44" />
+                    </TestCase>
+                    <TestCase name="CustomMode" priority="">
+                      <Test name="testNotificationRingtone" result="pass" starttime="2018-07-06 11:08:49" endtime="2018-07-06 11:09:44" />
+                    </TestCase>
+                    <TestCase name="CustomModeInput" priority="">
+                      <Test name="testNotificationRingtone" result="pass" starttime="2018-07-06 11:09:50" endtime="2018-07-06 11:11:12" />
+                    </TestCase>
+                    <TestCase name="EditOptionSwitchMode" priority="">
+                      <Test name="testNotificationRingtone" result="pass" starttime="2018-07-06 11:11:19" endtime="2018-07-06 11:12:49" />
+                    </TestCase>
+                    <TestCase name="EditRingtoneSwitchMode" priority="">
+                      <Test name="testNotificationRingtone" result="pass" starttime="2018-07-06 11:12:58" endtime="2018-07-06 11:13:37" />
+                    </TestCase>
+                    <TestCase name="NoSimSetAudio" priority="">
+                      <Test name="testNotificationRingtone" result="pass" starttime="2018-07-06 11:13:43" endtime="2018-07-06 11:14:39" />
+                    </TestCase>
+                    <TestCase name="NoSimSetSMSRingtones" priority="">
+                      <Test name="testNotificationRingtone" result="pass" starttime="2018-07-06 11:14:45" endtime="2018-07-06 11:15:38" />
+                    </TestCase>
+                    <TestCase name="NotificationRingtoneTest" priority="">
+                      <Test name="testNotificationRingtone" result="pass" starttime="2018-07-06 11:15:45" endtime="2018-07-06 11:16:33" />
+                    </TestCase>
+                    <TestCase name="Reset" priority="">
+                      <Test name="testNotificationRingtone" result="fail" starttime="2018-07-06 12:51:17" endtime="2018-07-06 12:52:47">
+                        <FailedScene message="java.lang.AssertionError: Pixie Dust&lt;br&gt;at org.junit.Assert.fail(Assert.java:88)&#13;">
+                          <StackTrace>java.lang.AssertionError: Pixie Dust&lt;br&gt;at org.junit.Assert.fail(Assert.java:88)&lt;br&gt;at org.junit.Assert.assertTrue(Assert.java:41)&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.AudioProfiles.Reset.testNotificationRingtone(Reset.java:100)&lt;br&gt;at java.lang.reflect.Method.invoke(Native Method)&lt;br&gt;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&lt;br&gt;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&lt;br&gt;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&lt;br&gt;at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&lt;br&gt;at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&lt;br&gt;at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&lt;br&gt;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:128)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:27)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&lt;br&gt;at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)&lt;br&gt;at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:262)&lt;br&gt;at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2107)&lt;br&gt;</StackTrace>
+                        </FailedScene>
+                      </Test>
+                    </TestCase>
+                    <TestCase name="SwitchModeAndExit" priority="">
+                      <Test name="testNotificationRingtone" result="pass" starttime="2018-07-06 11:18:20" endtime="2018-07-06 11:19:14" />
+                    </TestCase>
+                    <TestCase name="SwitchTest" priority="">
+                      <Test name="testSwitch" result="pass" starttime="2018-07-06 11:19:20" endtime="2018-07-06 11:20:04" />
+                    </TestCase>
+                    <TestCase name="SwitchingMode" priority="">
+                      <Test name="testNotificationRingtone" result="pass" starttime="2018-07-06 11:20:11" endtime="2018-07-06 11:22:24" />
+                    </TestCase>
+                    <TestCase name="TipsAndNotifications" priority="">
+                      <Test name="testNotificationRingtone" result="pass" starttime="2018-07-06 11:22:30" endtime="2018-07-06 11:24:10" />
+                    </TestCase>
+                  </TestSuite>
+                </TestSuite>
+              </TestSuite>
+            </TestSuite>
+          </TestSuite>
+        </TestSuite>
+      </TestSuite>
+    </TestSuite>
+  </TestPackage>
+  <TestPackage name="DailyTest_AndroidO_go_local_full_Setting-androidTest" startTime="2018-07-06 12:53:01" endTime="2018-07-06 12:56:21" elapsedTime="200000" desc="" index="" cate="" expec="" appPackageName="DailyTest_AndroidO_go_local_full_Setting" digest="868ffc81cf161e4268a906707c61d2bf14555ebd" expInfo="" summary="">
+    <TestSuite name="com">
+      <TestSuite name="sprd">
+        <TestSuite name="test">
+          <TestSuite name="uia2">
+            <TestSuite name="androidO">
+              <TestSuite name="function">
+                <TestSuite name="Full">
+                  <TestSuite name="Setting">
+                    <TestCase name="APNTest" priority="">
+                      <Test name="testAPN" result="fail" starttime="2018-07-06 12:53:22" endtime="2018-07-06 12:53:51">
+                        <FailedScene message="java.lang.NullPointerException: Attempt to invoke virtual method 'void android.support.test.uiautomator.UiObject2.click()' on a null object reference&lt;br&gt;at com.sprd.androidtest.utils.Utils.getSimNum(Utils.java:268)&#13;">
+                          <StackTrace>java.lang.NullPointerException: Attempt to invoke virtual method 'void android.support.test.uiautomator.UiObject2.click()' on a null object reference&lt;br&gt;at com.sprd.androidtest.utils.Utils.getSimNum(Utils.java:268)&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Setting.APNTest.testAPN(APNTest.java:59)&lt;br&gt;at java.lang.reflect.Method.invoke(Native Method)&lt;br&gt;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&lt;br&gt;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&lt;br&gt;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&lt;br&gt;at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&lt;br&gt;at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&lt;br&gt;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:128)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:27)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&lt;br&gt;at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)&lt;br&gt;at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:262)&lt;br&gt;at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2107)&lt;br&gt;</StackTrace>
+                        </FailedScene>
+                      </Test>
+                    </TestCase>
+                    <TestCase name="AddEmailAccountTest" priority="">
+                      <Test name="testAddEmailAccount" result="pass" starttime="2018-07-06 11:25:25" endtime="2018-07-06 11:26:12" />
+                    </TestCase>
+                    <TestCase name="AddSettingWidget2" priority="">
+                      <Test name="testAddWidget" result="pass" starttime="2018-07-06 11:26:18" endtime="2018-07-06 11:27:00" />
+                    </TestCase>
+                    <TestCase name="AirplaneEmergTest" priority="">
+                      <Test name="testAirplaneEmerg" result="pass" starttime="2018-07-06 11:27:05" endtime="2018-07-06 11:28:03" />
+                    </TestCase>
+                    <TestCase name="AppPermissionsTest" priority="">
+                      <Test name="testAppPermissions" result="pass" starttime="2018-07-06 11:28:09" endtime="2018-07-06 11:29:25" />
+                    </TestCase>
+                    <TestCase name="AppSettingTest" priority="">
+                      <Test name="testAppSetting" result="fail" starttime="2018-07-06 12:53:56" endtime="2018-07-06 12:54:30">
+                        <FailedScene message="java.lang.NullPointerException: Attempt to invoke virtual method 'android.support.test.uiautomator.UiObject2 android.support.test.uiautomator.UiObject2.getParent()' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Setting.AppSettingTest.testAppSetting(AppSettingTest.java:52)&#13;">
+                          <StackTrace>java.lang.NullPointerException: Attempt to invoke virtual method 'android.support.test.uiautomator.UiObject2 android.support.test.uiautomator.UiObject2.getParent()' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Setting.AppSettingTest.testAppSetting(AppSettingTest.java:52)&lt;br&gt;at java.lang.reflect.Method.invoke(Native Method)&lt;br&gt;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&lt;br&gt;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&lt;br&gt;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&lt;br&gt;at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&lt;br&gt;at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&lt;br&gt;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:128)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:27)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&lt;br&gt;at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)&lt;br&gt;at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:262)&lt;br&gt;at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2107)&lt;br&gt;</StackTrace>
+                        </FailedScene>
+                      </Test>
+                    </TestCase>
+                    <TestCase name="AutoBrightTest" priority="">
+                      <Test name="testAutoBright" result="pass" starttime="2018-07-06 11:30:05" endtime="2018-07-06 11:30:45" />
+                    </TestCase>
+                    <TestCase name="BatteryOptimiTest" priority="">
+                      <Test name="testBatteryOptimi" result="pass" starttime="2018-07-06 11:30:53" endtime="2018-07-06 11:31:09" />
+                    </TestCase>
+                    <TestCase name="ChangeDateTest" priority="">
+                      <Test name="testChangeDate" result="pass" starttime="2018-07-06 11:31:14" endtime="2018-07-06 11:31:51" />
+                    </TestCase>
+                    <TestCase name="ChangeDisplaySizeTest" priority="">
+                      <Test name="testChangeDisplaySize" result="pass" starttime="2018-07-06 11:31:56" endtime="2018-07-06 11:32:22" />
+                    </TestCase>
+                    <TestCase name="ChangeFontSizeTest" priority="">
+                      <Test name="testChangeFontSize" result="pass" starttime="2018-07-06 11:32:28" endtime="2018-07-06 11:32:55" />
+                    </TestCase>
+                    <TestCase name="ChangeSysTimeTest" priority="">
+                      <Test name="testChangeSysTime" result="pass" starttime="2018-07-06 11:33:02" endtime="2018-07-06 11:33:40" />
+                    </TestCase>
+                    <TestCase name="DataSaverTest" priority="">
+                      <Test name="testDataSaver" result="pass" starttime="2018-07-06 11:33:45" endtime="2018-07-06 11:34:39" />
+                    </TestCase>
+                    <TestCase name="DataWarningLimitTest" priority="">
+                      <Test name="testDataWarningLimit" result="pass" starttime="2018-07-06 11:34:44" endtime="2018-07-06 11:35:40" />
+                    </TestCase>
+                    <TestCase name="FlyTest" priority="">
+                      <Test name="testFly" result="pass" starttime="2018-07-06 11:35:46" endtime="2018-07-06 11:36:43" />
+                    </TestCase>
+                    <TestCase name="MobilePlanTest" priority="">
+                      <Test name="testMobilePlan" result="pass" starttime="2018-07-06 11:36:49" endtime="2018-07-06 11:37:16" />
+                    </TestCase>
+                    <TestCase name="NotificationSetTest" priority="">
+                      <Test name="testNotificationSet" result="pass" starttime="2018-07-06 11:37:22" endtime="2018-07-06 11:37:50" />
+                    </TestCase>
+                    <TestCase name="PermissionAllowedTest" priority="">
+                      <Test name="testPermissionAllowed" result="fail" starttime="2018-07-06 12:54:36" endtime="2018-07-06 12:55:19">
+                        <FailedScene message="java.lang.NullPointerException: Attempt to invoke virtual method 'void android.support.test.uiautomator.UiObject2.click()' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Setting.PermissionAllowedTest.testPermissionAllowed(PermissionAllowedTest.java:56)&#13;">
+                          <StackTrace>java.lang.NullPointerException: Attempt to invoke virtual method 'void android.support.test.uiautomator.UiObject2.click()' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Setting.PermissionAllowedTest.testPermissionAllowed(PermissionAllowedTest.java:56)&lt;br&gt;at java.lang.reflect.Method.invoke(Native Method)&lt;br&gt;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&lt;br&gt;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&lt;br&gt;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&lt;br&gt;at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&lt;br&gt;at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&lt;br&gt;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:128)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:27)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&lt;br&gt;at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)&lt;br&gt;at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:262)&lt;br&gt;at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2107)&lt;br&gt;</StackTrace>
+                        </FailedScene>
+                      </Test>
+                    </TestCase>
+                    <TestCase name="ResetNetModeTest" priority="">
+                      <Test name="testResetNetMode" result="pass" starttime="2018-07-06 11:38:45" endtime="2018-07-06 11:39:50" />
+                    </TestCase>
+                    <TestCase name="ResetNetworkTest" priority="">
+                      <Test name="testResetNetwork" result="pass" starttime="2018-07-06 11:39:56" endtime="2018-07-06 11:40:41" />
+                    </TestCase>
+                    <TestCase name="ScreenRotateTest" priority="">
+                      <Test name="testScreenRotate" result="pass" starttime="2018-07-06 11:40:47" endtime="2018-07-06 11:41:14" />
+                    </TestCase>
+                    <TestCase name="ScreenSaverTest" priority="">
+                      <Test name="testScreenSaver" result="pass" starttime="2018-07-06 11:41:19" endtime="2018-07-06 11:41:55" />
+                    </TestCase>
+                    <TestCase name="SleepTest" priority="">
+                      <Test name="testSleep" result="pass" starttime="2018-07-06 11:42:02" endtime="2018-07-06 11:46:11" />
+                    </TestCase>
+                    <TestCase name="TimezoneSortTest" priority="">
+                      <Test name="testTimezoneSort" result="pass" starttime="2018-07-06 11:46:17" endtime="2018-07-06 11:46:41" />
+                    </TestCase>
+                    <TestCase name="UnrestrictedDataTest" priority="">
+                      <Test name="testUnrestrictedData" result="pass" starttime="2018-07-06 11:46:46" endtime="2018-07-06 11:48:21" />
+                    </TestCase>
+                    <TestCase name="WallpaperSetTest" priority="">
+                      <Test name="testWallpaperSet" result="fail" starttime="2018-07-06 12:55:25" endtime="2018-07-06 12:56:11">
+                        <FailedScene message="java.lang.NullPointerException: Attempt to invoke virtual method 'void android.support.test.uiautomator.UiObject2.click()' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Setting.WallpaperSetTest.testWallpaperSet(WallpaperSetTest.java:81)&#13;">
+                          <StackTrace>java.lang.NullPointerException: Attempt to invoke virtual method 'void android.support.test.uiautomator.UiObject2.click()' on a null object reference&lt;br&gt;at com.sprd.test.uia2.androidO.function.Full.Setting.WallpaperSetTest.testWallpaperSet(WallpaperSetTest.java:81)&lt;br&gt;at java.lang.reflect.Method.invoke(Native Method)&lt;br&gt;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&lt;br&gt;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&lt;br&gt;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&lt;br&gt;at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&lt;br&gt;at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&lt;br&gt;at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&lt;br&gt;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&lt;br&gt;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:128)&lt;br&gt;at org.junit.runners.Suite.runChild(Suite.java:27)&lt;br&gt;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&lt;br&gt;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&lt;br&gt;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&lt;br&gt;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&lt;br&gt;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&lt;br&gt;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&lt;br&gt;at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&lt;br&gt;at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)&lt;br&gt;at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:262)&lt;br&gt;at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2107)&lt;br&gt;</StackTrace>
+                        </FailedScene>
+                      </Test>
+                    </TestCase>
+                  </TestSuite>
+                </TestSuite>
+              </TestSuite>
+            </TestSuite>
+          </TestSuite>
+        </TestSuite>
+      </TestSuite>
+    </TestSuite>
+  </TestPackage>
+</TestResult>

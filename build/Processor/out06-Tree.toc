@@ -1,0 +1,5 @@
+('C:\\Users\\kyrie.liu\\Desktop\\autosanity\\build\\Processor\\jdcal-1.3-py2.7.egg',
+ None,
+ set(['*.py', '*.pyc', '*.pyd', '*.pyo', '*.so', 'EGG-INFO']),
+ 'DATA',
+ [])

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no' ?>
+<BuildInfo>
+    <bug name="TPM">
+        <info name="loginName"      value="jenkins"/>  <!-- bugzilla 用户名 -->
+        <info name="password"       value="123@abAB"/> <!-- bugzilla 密码 -->
+        <info name="assigned_to"    value="Olivine.Peng@unisoc.com"/>         
+        <info name="cc_user"        value=""/>
+        <info name="__FORM_TOKEN"   value="1a47c18353ff7b9cf870c9fe"/>
+        <info name="expid"          value="19845"/>
+        <info name="type"           value="1"/>
+        <info name="cf_testcaseid"  value="12345"/>
+        <info name="product"        value="HW_SharkLS"/>
+        <info name="severity"       value="3-Average"/>
+        <info name="priority"       value="1-Resolve Immediately"/>
+        <info name="cf_change_type" value="Defect"/>
+        <info name="cf_come_from"   value="Test_BM"/>
+        <info name="cf_probability" value="2-occasionally Recurrence"/>
+        <info name="feature"        value="60"/>
+        <info name="frequency2"     value="70"/>
+        <info name="effect"         value="50"/>
+        <info name="probability2"   value="70"/>
+        <info name="cf_base_on_ver" value="{build_display}"/>
+        <info name="component"      value="Android_Build"/>
+        <info name="cf_occurence_count" value="2/3"/>
+        <info name="summary"        value="[BM][DailyTest] Daily case #{caseName}# fail"/>
+        <info name="description"    value= ""/>
+    </bug>
+</BuildInfo>
